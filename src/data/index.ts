@@ -59,12 +59,12 @@ export const linkData: Array<ILinkData> = [
   {
     link: discord,
     text: "Discord",
-    address: "luckymy1004@gmail.com"
+    address: "arold_potter"
   },
   {
     link: teams,
     text: "Teams",
-    address: "luckymy1004@gmail.com"
+    address: "https://teams.live.com/l/invite/FBA58z-67BETqBD_wM"
   }
 ]
 
