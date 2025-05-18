@@ -1,0 +1,81 @@
+.left-bar {
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    border-radius: 10px;
+    width: 22%;
+    padding: 30px;
+    background-color: rgba(42, 51, 56, 0.137);
+    height: 850px;
+    position: sticky;
+    top: 60px;
+    .avatar {
+        padding-top: 10px;
+        border-bottom: 1px solid rgb(112, 112, 112);
+        padding-bottom: 30px;
+        img {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        h1,
+        h3,
+        p {
+            color: white;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        h1 {
+            margin-bottom: 12px;
+            margin-top: 20px;
+            font-size: 28px;
+        }
+        h3 {
+            font-weight: 500;
+            background-color: rgba(128, 128, 128, 0.397);
+            display: inline-block;
+            width: 35%;
+            padding: 3px 0;
+            border-radius: 10px;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+    .router {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 0px 10px 5px;
+        .link {
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            gap: 20px;
+            .logo {
+                border-radius: 10px;
+                border-left: 1px solid rgba(255, 255, 255, 0.158);
+                border-top: 1px solid rgba(255, 255, 255, 0.158);
+                background-color: rgba(59, 59, 59, 0.233);
+                padding: 7px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    opacity: 0.8;
+                }
+            }
+            .link-title {
+                line-height: 20px;
+                p {
+                    color: rgba(255, 255, 255, 0.507);
+                    text-align: left;
+                    font-size: 13px;
+                }
+                h2 {
+                    color: rgba(255, 255, 255, 0.822);
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

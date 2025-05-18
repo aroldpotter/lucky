@@ -1,0 +1,115 @@
+.content {
+    width: 75%;
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    border-radius: 10px;
+    background-color: rgba(42, 51, 56, 0.137);
+    padding-left: 40px;
+    padding-bottom: 40px;
+    .head {
+        display: flex;
+        align-items: center;
+        h1 {
+            color: rgb(202, 201, 201);
+            width: 74%;
+            text-align: left;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+        .menu {
+            width: 26%;
+            display: flex;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.158);
+            border-left: 1px solid rgba(255, 255, 255, 0.158);
+            border-bottom-left-radius: 10px;
+            padding: 25px 0;
+            margin-top: -30px;
+            a {
+                width: 50%;
+                color: white;
+                text-decoration: none;
+                transition: 0.3s;
+            }
+            a:hover {
+                color: wheat;
+            }
+        }
+    }
+    .line {
+        text-align: left;
+        .border {
+            display: inline-block;
+            width: 80px;
+            border: 2px solid rgb(253, 211, 133);
+            border-radius: 5px;
+        }
+    }
+    .doing {
+        h1 {
+            color: rgb(202, 201, 201);
+            margin-top: 50px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4%;
+            padding-right: 40px;
+            .each-skill {
+                width: 48%;
+                display: flex;
+                border-radius: 10px;
+                border-top: 1px solid rgba(255, 255, 255, 0.158);
+                border-left: 1px solid rgba(255, 255, 255, 0.158);
+                background-color: rgba(77, 77, 77, 0.267);
+                padding: 35px 25px;
+                margin-top: 50px;
+                .skill-logo {
+                    width: 20%;
+                    .Web {
+                        width: 50px;
+                        height: 50px;
+                    }
+                    .Web_ {
+                        width: 60px;
+                        height: 60px;
+                    }
+                    .Mob {
+                        width: 70px;
+                        height: 70px;
+                    }
+                    .Min {
+                        width: 65px;
+                        height: 65px;
+                    }
+                }
+                .skill-content {
+                    width: 80%;
+                    h2,
+                    p {
+                        text-align: left;
+                        color: rgb(202, 201, 201);
+                    }
+                    h2 {
+                        margin-bottom: 5px;
+                        font-size: 20px;
+                    }
+                    p {
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.portfolio {
+    display: flex;
+    gap: 3%;
+}
+
+.content>p {
+    text-align: left;
+    margin-top: 35px;
+    font-size: 17px;
+    line-height: 30px;
+    color: rgb(185, 184, 181);
+}
