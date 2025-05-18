@@ -63,7 +63,7 @@ const App: React.FC = () => {
         ) : (
           <>
             <Welcome />
-            <BrowserRouter>
+            <BrowserRouter basename='/lucky'>
               <AnimatedRoutes />
             </BrowserRouter>
           </>
