@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0cd6207.css",
-    "main.js": "/static/js/main.f1b4db6c.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/7.png": "/static/media/7.dcf7352fd42164422140.png",
-    "static/media/4.png": "/static/media/4.e9d4ad7a151f89d9a0f0.png",
-    "static/media/9.png": "/static/media/9.42cfa01d672f28b51c6f.png",
-    "static/media/3.png": "/static/media/3.e39da4c1f60ff6ec400a.png",
-    "static/media/2.png": "/static/media/2.227ef2ca497fe808855d.png",
-    "static/media/5.png": "/static/media/5.d50cbf1d2ea922e4f796.png",
-    "static/media/10.png": "/static/media/10.d7f52f5e290ea7c41ac4.png",
-    "static/media/1.png": "/static/media/1.634d130ebc409558fa1a.png",
-    "static/media/aifaceswap-jpg": "/static/media/aifaceswap-0ddb536509069c51324a708bdfbc3f83.5be9aafc877efb355dd1.jpg",
-    "static/media/11.png": "/static/media/11.435b4d72fd7f81913493.png",
-    "static/media/8.png": "/static/media/8.85de236ea2e38e3494ed.png",
-    "static/media/13.png": "/static/media/13.3d50bbd8f85c4892178c.png",
-    "static/media/6.png": "/static/media/6.699b19ca771e01ce2731.png",
-    "static/media/12.png": "/static/media/12.a3d5e01d40d6493b9bf7.png",
-    "index.html": "/index.html",
-    "main.a0cd6207.css.map": "/static/css/main.a0cd6207.css.map",
-    "main.f1b4db6c.js.map": "/static/js/main.f1b4db6c.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/lucky/static/css/main.a0cd6207.css",
+    "main.js": "/lucky/static/js/main.14dcbe38.js",
+    "static/js/453.1407b060.chunk.js": "/lucky/static/js/453.1407b060.chunk.js",
+    "static/media/7.png": "/lucky/static/media/7.dcf7352fd42164422140.png",
+    "static/media/4.png": "/lucky/static/media/4.e9d4ad7a151f89d9a0f0.png",
+    "static/media/9.png": "/lucky/static/media/9.42cfa01d672f28b51c6f.png",
+    "static/media/3.png": "/lucky/static/media/3.e39da4c1f60ff6ec400a.png",
+    "static/media/2.png": "/lucky/static/media/2.227ef2ca497fe808855d.png",
+    "static/media/5.png": "/lucky/static/media/5.d50cbf1d2ea922e4f796.png",
+    "static/media/10.png": "/lucky/static/media/10.d7f52f5e290ea7c41ac4.png",
+    "static/media/1.png": "/lucky/static/media/1.634d130ebc409558fa1a.png",
+    "static/media/aifaceswap-jpg": "/lucky/static/media/aifaceswap-0ddb536509069c51324a708bdfbc3f83.5be9aafc877efb355dd1.jpg",
+    "static/media/11.png": "/lucky/static/media/11.435b4d72fd7f81913493.png",
+    "static/media/8.png": "/lucky/static/media/8.85de236ea2e38e3494ed.png",
+    "static/media/13.png": "/lucky/static/media/13.3d50bbd8f85c4892178c.png",
+    "static/media/6.png": "/lucky/static/media/6.699b19ca771e01ce2731.png",
+    "static/media/12.png": "/lucky/static/media/12.a3d5e01d40d6493b9bf7.png",
+    "index.html": "/lucky/index.html",
+    "main.a0cd6207.css.map": "/lucky/static/css/main.a0cd6207.css.map",
+    "main.14dcbe38.js.map": "/lucky/static/js/main.14dcbe38.js.map",
+    "453.1407b060.chunk.js.map": "/lucky/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0cd6207.css",
-    "static/js/main.f1b4db6c.js"
+    "static/js/main.14dcbe38.js"
   ]
 }
