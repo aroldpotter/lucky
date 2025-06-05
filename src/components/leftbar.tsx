@@ -1,6 +1,6 @@
 import React from "react";
 import "./leftbar.scss";
-import avatar from "../images/aifaceswap-0ddb536509069c51324a708bdfbc3f83.jpg";
+import avatar from "../images/Screenshot 2025-05-21 123035.png";
 import { ILinkData, linkData } from "../data";
 import LinkC from "./linkC";
 

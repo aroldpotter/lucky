@@ -29,7 +29,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://aroldpotter.github.io/lucky",
+  "homepage": "https://aroldpotter.github.io/lucky/",
   "eslintConfig": {
     "extends": [
       "react-app",
