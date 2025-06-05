@@ -9,8 +9,8 @@ const Leftbar: React.FC = () => {
     <div className="left-bar">
       <div className="avatar">
         <img src={avatar} alt="avatar" />
-        <h1>Arold Potter</h1>
-        <h3>Arold</h3>
+        <h1>James Lee</h1>
+        <h3>James</h3>
         <p>Web | BlockChain | Bot | Mobile</p>
         <p>Development</p>
       </div>

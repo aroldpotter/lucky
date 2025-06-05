@@ -24,7 +24,7 @@ const AboutMe: React.FC = () => {
         >
           <h1>About Me</h1>
           <div className="menu">
-            <Link to={"/"} style={{ color: "wheat" }}>About Me</Link>
+            <Link to={"/"} style={{ color: "wheat" }}>About me</Link>
             <Link to={"/portfolio"}>Portfolio</Link>
           </div>
         </motion.div>
