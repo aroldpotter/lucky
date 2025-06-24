@@ -4,6 +4,8 @@
     margin: auto;
     padding: 60px 0;
     position: relative;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 * {
@@ -12,8 +14,15 @@
     padding: 0;
 }
 
+
 /* Interactive elements should show the pointer cursor */
-a, button, [role="button"], input[type="submit"], input[type="button"], select {
+
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+select {
     cursor: pointer;
 }
 
@@ -49,5 +58,26 @@ a, button, [role="button"], input[type="submit"], input[type="button"], select {
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+    .App {
+        padding: 40px 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .App {
+        padding: 20px 4px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .App {
+        padding: 10px 2px;
     }
 }

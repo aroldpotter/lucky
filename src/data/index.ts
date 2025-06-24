@@ -7,6 +7,7 @@ import web from "../images/web.png";
 import web3 from "../images/w3.png";
 import mobile from "../images/mobile.png";
 import bot from "../images/bot.png";
+import shopify from "../images/shopify.png";
 import gmail from "../images/gmail.png";
 import img1 from "../images/1.png";
 import img2 from "../images/2.png";
@@ -21,6 +22,11 @@ import img10 from "../images/10.png";
 import img11 from "../images/11.png";
 import img12 from "../images/12.png";
 import img13 from "../images/13.png";
+import img14 from "../images/14.png";
+import img15 from "../images/15.png";
+import img16 from "../images/16.png";
+import img17 from "../images/17.png";
+import img18 from "../images/18.png";
 
 
 export interface ILinkData {
@@ -52,19 +58,15 @@ export const linkData: Array<ILinkData> = [
     text: "Slack",
     address: "luckymy1004@gmail.com"
   },
-  // {
-  //   link: telegram,
-  //   text: "Telegram"
-  // },
+  {
+    link: telegram,
+    text: "telegram",
+    address: "herakles0910"
+  },
   {
     link: discord,
     text: "Discord",
-    address: "arold_potter"
-  },
-  {
-    link: teams,
-    text: "Teams",
-    address: "https://teams.live.com/l/invite/FBA58z-67BETqBD_wM"
+    address: "jameslee981129"
   }
 ]
 
@@ -91,6 +93,13 @@ export const SkillData: Array<ISkill> = [
             engaging user experiences.`
   },
   {
+    logo_path: shopify,
+    title: "Shopify Theme & App",
+    text: `We focus on enhancing your store design, functionality, and user 
+            engagement with custom Shopify themes and apps built with Liquid, 
+            JavaScript, and APIs.`
+  },
+  {
     logo_path: bot,
     title: "MiniApp & Bot",
     text: `Telegram MiniApps and Discord Bots created with Node.js 
@@ -99,7 +108,7 @@ export const SkillData: Array<ISkill> = [
   },
 ]
 
-export const ListData: Array<string> = ["All", "BlockChain", "Web", "Mobile", "MiniApp & Bot"]
+export const ListData: Array<string> = ["All", "BlockChain", "Web", "Mobile", "MiniApp & Bot", "Shopify"]
 
 export interface IProject {
   path: string;
@@ -136,12 +145,28 @@ export const ProjectData: Array<IProject> = [
     link: "https://drive.google.com/file/d/1_2J2OHl_MWdBmqZtPtquoSavHXIFwxIK/view?usp=drive_link"
   },
   {
+    path: img15,
+    title: "Trendmarck",
+    stack: "Shopify",
+    text: "Live Shopify store selling rugs and doormats. This link leads directly to a product collection page—likely a home decor brand using Shopify with a custom domain.",
+    category: "Shopify",
+    link: "https://trendmarck.com/collections/rugs-doormats"
+  },
+  {
     path: img4,
     title: "NFT Game",
     stack: "Web3 | Solidity | React",
     text: "The first cross-IP PvP game for the NFT universe.",
     category: "BlockChain",
     link: "https://galaxyfightclub.com/"
+  },
+  {
+    path: img14,
+    title: "Obik",
+    stack: "Shopify",
+    text: "Demo for the 'Obik' theme — modern, minimalist layout for fashion or apparel. Clean grid, bold imagery, responsive design. Appears twice in your list.",
+    category: "Shopify",
+    link: "https://obik-theme.myshopify.com/"
   },
   {
     path: img5,
@@ -168,6 +193,22 @@ export const ProjectData: Array<IProject> = [
     link: "https://cleancreations.com/"
   },
   {
+    path: img17,
+    title: "Father Rabbit",
+    stack: "Shopify",
+    text: "New Zealand-based Shopify store for curated homeware, lifestyle products, and books. Stylish design, clean grid layout, and brand-focused content.",
+    category: "Shopify",
+    link: "https://fatherrabbit.com/"
+  },
+  {
+    path: img18,
+    title: "Puravidabracelets",
+    stack: "Shopify",
+    text: "A famous Shopify Plus brand selling handmade bracelets and accessories. Pura Vida is often used as a case study for high-volume Shopify performance.",
+    category: "Shopify",
+    link: "https://www.puravidabracelets.com/"
+  },
+  {
     path: img8,
     title: "Zeit Kapsel",
     stack: "React JS | Three JS | WebVR | Virtual Reality",
@@ -182,6 +223,14 @@ export const ProjectData: Array<IProject> = [
     text: " blockchain-based battle royale game focused on team play.",
     category: "BlockChain",
     link: "https://defitankland.netlify.app/"
+  },
+  {
+    path: img16,
+    title: "agile",
+    stack: "Shopify",
+    text: "The 'Gorde' theme — premium look, suitable for luxury or home décor stores. Typically includes homepage sliders, featured collections, and stylish typography.",
+    category: "Shopify",
+    link: "https://agile-default.myshopify.com/"
   },
   {
     path: img10,
@@ -214,5 +263,5 @@ export const ProjectData: Array<IProject> = [
     text: "Enter Dragonz Land to grow your dragon, collect Hero Cards, and earn Dragonz Gold!",
     category: "MiniApp & Bot",
     link: "https://t.me/dragonz_land_bot"
-  }
+  },
 ]

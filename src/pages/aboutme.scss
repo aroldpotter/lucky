@@ -5,6 +5,8 @@
     background-color: rgba(42, 51, 56, 0.137);
     padding-left: 40px;
     padding-bottom: 40px;
+    box-sizing: border-box;
+    overflow-x: hidden;
     .head {
         display: flex;
         align-items: center;
@@ -64,21 +66,16 @@
                 margin-top: 50px;
                 .skill-logo {
                     width: 20%;
-                    .Web {
+                    img {
                         width: 50px;
                         height: 50px;
+                        object-fit: contain;
+                        display: block;
+                        margin: 0 auto;
                     }
-                    .Web_ {
-                        width: 60px;
-                        height: 60px;
-                    }
-                    .Mob {
-                        width: 70px;
-                        height: 70px;
-                    }
-                    .Min {
-                        width: 65px;
-                        height: 65px;
+                    .Web, .Mob, .Min {
+                        width: 50px;
+                        height: 50px;
                     }
                 }
                 .skill-content {
@@ -106,10 +103,178 @@
     gap: 3%;
 }
 
+@media screen and (max-width: 900px) {
+    .portfolio {
+        flex-direction: column;
+        gap: 0;
+        align-items: stretch;
+        overflow-x: hidden;
+    }
+    .left-bar {
+        width: 100% !important;
+        min-width: 0;
+        max-width: 100vw;
+        margin: 0 0 18px 0;
+        padding: 10px 0;
+        display: block !important;
+    }
+    .content {
+        width: 100% !important;
+        min-width: 0;
+        max-width: 100vw;
+        margin: 12px 0 0 0;
+        padding: 10px 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+}
+
 .content>p {
     text-align: left;
     margin-top: 35px;
     font-size: 17px;
     line-height: 30px;
     color: rgb(185, 184, 181);
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+        padding-left: 8px;
+        padding-bottom: 16px;
+    }
+    .head {
+        flex-direction: column;
+        align-items: flex-start;
+        h1 {
+            width: 100%;
+            font-size: 1.3rem;
+            padding-top: 16px;
+            padding-bottom: 8px;
+        }
+        .menu {
+            width: 100%;
+            flex-direction: row;
+            padding: 8px 0;
+            margin-top: 0;
+            gap: 8px;
+            overflow-x: auto;
+            a {
+                font-size: 1rem;
+                white-space: nowrap;
+                padding: 4px 8px;
+            }
+        }
+    }
+    .doing .skills {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 0;
+        .each-skill {
+            width: 100%;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 16px 8px;
+            margin-top: 12px;
+            .skill-logo {
+                width: 36px;
+                height: 36px;
+                margin-bottom: 8px;
+            }
+            .skill-content {
+                width: 100%;
+                h2 {
+                    font-size: 1.05rem;
+                }
+                p {
+                    font-size: 0.95rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        width: 100%;
+        padding-left: 2px;
+        padding-bottom: 6px;
+    }
+    .head h1 {
+        font-size: 1.05rem;
+        padding-top: 8px;
+        padding-bottom: 4px;
+    }
+    .doing .skills .each-skill {
+        padding: 8px 2px;
+        margin-top: 6px;
+        .skill-logo {
+            width: 28px;
+            height: 28px;
+        }
+        .skill-content h2 {
+            font-size: 0.95rem;
+        }
+        .skill-content p {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .head {
+        flex-direction: column;
+        align-items: center;
+        .menu {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 0;
+            margin-top: 0;
+            a {
+                font-size: 1rem;
+                white-space: nowrap;
+                padding: 4px 8px;
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+    .doing .skills {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 0;
+        .each-skill {
+            width: 100%;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 12px 4px;
+            margin-top: 8px;
+            .skill-logo {
+                width: 28px;
+                height: 28px;
+                margin-bottom: 6px;
+            }
+            .skill-content {
+                width: 100%;
+                h2 {
+                    font-size: 0.98rem;
+                }
+                p {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+    .content>p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    .content h1,
+    .content .doing h1 {
+        font-size: 1.1rem;
+        margin-top: 18px;
+        margin-bottom: 8px;
+    }
 }

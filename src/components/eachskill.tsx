@@ -23,7 +23,7 @@ const EachSkill: React.FC<Props> = ({ logo_path, title, text, index }) => {
         transition={{ delay: index * 0.2 + 0.3, duration: 0.5, type: "spring" }}
       >
         <motion.img 
-          className={index === 1 ? title.slice(0, 3) + "_" : title.slice(0, 3)} 
+          className={title.slice(0, 3)} 
           src={logo_path} 
           alt="avatar"
           whileHover={{ rotate: 360 }}

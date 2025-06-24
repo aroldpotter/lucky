@@ -83,3 +83,38 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    .content .projects {
+        flex-direction: column;
+        gap: 20px;
+        .each-project {
+            width: 98%;
+            margin-top: 20px;
+        }
+    }
+    .content .tab {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content .projects .each-project {
+        width: 100%;
+        margin-top: 10px;
+        h2 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 0.85rem;
+        }
+        h3 {
+            font-size: 0.8rem;
+        }
+    }
+    .content .tab button {
+        font-size: 0.95rem;
+    }
+}
